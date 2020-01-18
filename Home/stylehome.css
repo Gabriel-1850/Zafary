@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src:url(../Layout/Roboto-Regular.ttf);
+}
+
+
+.texto_pagina{
+	font-family: "Roboto-Regular";
+
+}
+
+.titulo{
+    position: absolute;
+    left: 22.94%;
+    right: 22.94%;
+    top: 5px;
+    bottom: 90.76%;
+
+    font-family: "Roboto-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 0px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.subtitulo{
+    position: absolute;
+    left: 22.94%;
+    right: 24.43%;
+    top: 5.75%;
+    bottom: 73.93%;
+
+    font-family: "Roboto-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.divimg{
+    position: absolute;
+    left: 200px;;
+    right: 10.03%;
+    top: 200px;;
+    bottom: 17.71%;
+    width: 600px;
+}

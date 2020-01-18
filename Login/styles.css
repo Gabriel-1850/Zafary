@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src:url(../Layout/Roboto-Regular.ttf);
+}
+.texto_pagina{
+  font-family: "Roboto-Regular";
+
+}
+
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #444;
+}
+
+::-moz-selection {
+    color: #fff;
+    text-shadow: none;
+    background: #444;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+      font-family: "Roboto-Regular";
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    background: #f0f0f0;
+
+}
+
+#contenedor {
+    position: fixed;
+    width: 340px;
+    height: 290px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+    background: #EAFAF1;
+    border-radius: 30px;
+    border: 1px solid #A9DFBF;
+
+}
+
+
+
+label {
+    color: #1E8449;
+    display: inline-block;
+    margin-left: 85px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.lov{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Roboto-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+
+}
+
+.corazon{
+   width: 10px;
+    height: 10px;
+    color: #FF0000;
+
+}
+
+
+.error{
+	position: absolute;
+	width: 373px;
+	height: 21px;
+	left: 11%;
+	top: 75%;
+	font-family: "Roboto-Regular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #FF0000;
+
+}
+
+input[type=text],
+input[type=password] {
+    color: #1E8449;
+    padding-left: 20px;
+    margin: 16px;
+    margin-top: 18px;
+    margin-left: 16px;
+    width: 290px;
+    height: 35px;
+    border: 1px solid #A9DFBF;
+    border-radius: 30px;
+
+}
+
+input[type=Correo]:hover,
+input[type=Clave]:hover {
+    border: 1px solid #b6bfc0;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+    border-radius: 30px;
+}
+
+
+input[type=Correo]:focus,
+input[type=Clave]:focus {
+    border: 1px solid #a8c9e4;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+
+
+
+
+input[type=button] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    Color: white;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5ad2ae), to(#5ad2ae));
+    background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    border-radius: 400px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+   }
+
+input[type=button]:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#186A3B), to(#186A3B));
+    background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+}
+
+input[type=button]:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#27AE60), to(#27AE60));
+    background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+    background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+}
